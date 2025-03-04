@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "529962109043",
+    "project_id": "ciphershare-2ae14",
+    "storage_bucket": "ciphershare-2ae14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529962109043:android:9867897",
+        "android_client_info": {
+          "package_name": "com.example.ciphershare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "Your api key"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

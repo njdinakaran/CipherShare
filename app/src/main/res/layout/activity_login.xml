@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:background="@color/MainBackground"
+    tools:context=".login_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/gradient_color_background">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CipherShare"
+                android:textColor="@color/white"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="32dp"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delve into the world of ciphers by exploring now!"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="24dp"/>
+
+            <ImageView
+                android:id="@+id/backgroundImage"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/register"
+                android:scaleType="centerCrop"
+                />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="12dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:background="@drawable/button_background_dark"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="12dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:background="@drawable/button_background_dark"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonSignIn"
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/green_bg"
+                android:textColor="@color/black"
+                style="@android:style/Widget.Button"
+                android:text="Sign In"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/poppins_semibold"/>
+
+            <TextView
+                android:id="@+id/textViewForgotPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="14dp"
+                android:alpha="0.79"
+                android:clickable="true"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Forgot password"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textViewCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New to CipherShare? Create an account"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:alpha="0.85"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:clickable="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonSignIn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/cardViewSignIn"-->
+<!--        android:layout_marginHorizontal="40dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:text="Sign In"-->
+<!--        android:textColor="@android:color/white" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/buttonSignIn"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        style="@android:style/Widget.Button"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:fontFamily="@font/poppins_semibold"-->
+<!--        android:text="Sign In"-->
+<!--        android:background="@drawable/green_bg"-->
+<!--        />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
